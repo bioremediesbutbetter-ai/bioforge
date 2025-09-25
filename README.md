@@ -33,4 +33,4 @@ Our vision is to forge a greener future through biotechnology and community-driv
 ---
 
 ## 📜 License
-This project is open-source. You are free to fork, improve, and adapt.  
+This project is open-source. You are free to fork, improve, and adapt.   
