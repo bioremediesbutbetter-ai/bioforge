@@ -107,7 +107,22 @@
       Tell us where Lumiclean could help. Provide location, description, and optional photo — 
       the Bioforge team will evaluate and respond.
     </p>
-    <form class="form" onsubmit="alert('Form simulated — demo only.'); return false;">
+   <form action="https://formspree.io/f/xjkakdjj" method="POST">
+  <div class="row">
+    <input type="text" name="name" required placeholder="Your name" />
+    <input type="email" name="email" required placeholder="Your email" />
+  </div>
+  <div class="row">
+    <input type="text" name="location" required placeholder="Location (lat, long or address)" />
+  </div>
+  <div class="row">
+    <textarea name="description" required placeholder="Describe the pollution / observations"></textarea>
+  </div>
+  <div class="row actions">
+    <button class="btn primary" type="submit">Submit Report</button>
+  </div>
+</form>
+
       <div class="row">
         <input required placeholder="Your name" />
         <input required type="email" placeholder="Your email" />
